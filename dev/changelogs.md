@@ -1,5 +1,26 @@
 ## Navio Raspbian changelog
 
+*2018-05-2x:*
+
+- ArduPilot updated:
+    - ArduRover: 3.3.0
+    - ArduCopter: 3.5.5
+    - ArduPlane: 3.9.0
+
+- new packages for kernel and headers
+
+    RPI's raspberrypi-kernel and raspberrypi-kernel-headers packages substitute with version for Navio. This fixes broken dependencies for some packages.
+
+- kernel updated to v4.14.39 ?
+- Raspberry PI 3 Model B+ support
+- emlidtool: 1.0.X
+- rcio-firmware: 1.5.4-1.2
+- rcio-dkms: 1.0.0:
+    - Virtual GPIO support
+    - Support for kernels >= 4.10
+- removed rpi-update package
+- removed WBC support
+
 *2017-03-23:*
 
 - preinstalled ArduPilot with systemd scripts:
