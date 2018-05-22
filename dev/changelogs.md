@@ -3,10 +3,10 @@
 *2017-03-23:*
 
 - preinstalled ArduPilot with systemd scripts:
-    Arducopter: 3.4.6
-    ArduPlane: 3.7.1
-    APMrover2: 3.1.2
-    ardupilot.service: 0.9.0
+    - Arducopter: 3.4.6
+    - ArduPlane: 3.7.1
+    - APMrover2: 3.1.2
+    - ardupilot.service: 0.9.0
 
 - Wi-Fi broadcast support
 - preinstalled ROS Indigo
